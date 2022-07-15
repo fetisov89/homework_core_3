@@ -1,3 +1,7 @@
 public interface ServiceTransport {
-    void check(ServiceTransport object);
+    void check(Truck truck);
+
+    void check(Car car);
+
+    void check(Bicycle bicycle);
 }
